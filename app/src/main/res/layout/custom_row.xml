@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="horizontal"
-    android:padding="2dp"
+    android:padding="15dp"
     android:id="@+id/rowLayout">
 
     <TextView

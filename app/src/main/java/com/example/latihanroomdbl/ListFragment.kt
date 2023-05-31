@@ -46,7 +46,6 @@ class ListFragment : Fragment() {
         //menambahkan adapter ke recyclerview
         rvUser.layoutManager = LinearLayoutManager(requireContext())
         return view
-
     }
 
 

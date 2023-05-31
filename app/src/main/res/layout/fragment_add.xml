@@ -20,6 +20,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/aa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Selamat Datang"
+            android:background="@color/biru"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
         <EditText
             android:id="@+id/et_firstName"
             android:layout_width="match_parent"

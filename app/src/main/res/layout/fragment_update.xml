@@ -49,6 +49,13 @@
             android:layout_height="50dp"
             android:backgroundTint="@color/black"
             android:text="@string/update" />
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/black"
+            android:text="Delete" />
     </LinearLayout>
 
 

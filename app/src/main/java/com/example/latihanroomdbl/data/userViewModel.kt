@@ -17,9 +17,24 @@ class userViewModel(application: Application): AndroidViewModel(application) {
         repository = UserRepository(userDao)
         readAllData = repository.readAllData
     }
+    // untuk menambahkan data
     fun addUser(user:User){
         viewModelScope.launch(Dispatchers.IO) {
             repository.addUser(user)
+        }
+    }
+
+    // untuk mengupdate data
+    fun updateUser(user: User){
+        viewModelScope.launch(Dispatchers.IO) {
+            repository.updateUser(user)
+        }
+    }
+
+    // untuk menghapus data
+    fun deleteUser(user: User){
+        viewModelScope.launch(Dispatchers.IO) {
+            repository.deleteUser(user)
         }
     }
 }
